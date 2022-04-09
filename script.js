@@ -175,7 +175,7 @@ window.onload = function () {
 		tweetBtn.ontouchend = function () {				//S_Tweetボタンをタッチした（タッチして離した）時にこの中の内容を実行する
 			//ツイートＡＰＩに送信
 			//結果ツイート時にURLを貼るため、このゲームのURLをここに記入してURLがツイート画面に反映されるようにエンコードする
-			const url = encodeURI("https://shunasu6.github.io/gorushi_tap/");
+			const url = encodeURI("https://shunasu6.github.io/teiosteptap");
 			window.open("http://twitter.com/intent/tweet?text=テイオーステップを" + point + "回できたよ！&hashtags=テイオーステップタップチャレンジ&url=" + url); //ハッシュタグにahogeタグ付くようにした。
 		};
 
